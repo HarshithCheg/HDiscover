@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ## Usage
 Clone the repo and run:
 ```bash
-python HDiscover_SourceCode.py
+streamlit run HDiscover_SourceCode.py
 ```
 
 ## Roadmap
