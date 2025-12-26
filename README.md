@@ -6,7 +6,7 @@ MiniProject
 
 Author: Harshith Chegondi
 
-Duration: 17-Dec'2025 to Present
+Duration: 17-Dec'2025 to 26-Dec'2025
 
 Programming Language: Python
 
@@ -15,10 +15,6 @@ Programming Language: Python
 HDiscover is a prototype system that fetches user data from [randomuser.me](https://randomuser.me), 
 calculates distances between users, and ranks them using a custom Merge Sort algorithm. 
 The system demonstrates API integration, algorithm design, and user ranking logic.
-
- **Project Status: In Progress**  
-This project is currently under active development.  
-The initial prototype is functional (fetching users, calculating distances, and ranking them), but upcoming features like database integration, FastAPI backend, and Streamlit frontend are still being built.
 
 ## Current Features
 - Fetch random user data via API
@@ -52,7 +48,6 @@ python HDiscover_SourceCode.py
 - [x] Fetch multiple users
 - [x] Calculate Euclidean distances
 - [x] Sort users with Merge Sort
-- [ ] Integrate database (SQLite/PostgreSQL)
-- [ ] Build FastAPI backend
-- [ ] Add Streamlit frontend
-- [ ] Extend ranking criteria beyond distance
+- [x] Integrate database (SQLite3)
+- [x] Add Streamlit frontend
+- [x] Update distance calculation (Haversine)
